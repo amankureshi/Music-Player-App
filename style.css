@@ -192,21 +192,17 @@ h3 {
     .player-control {
         position: relative;
         top: 0.4rem;
-        left: 7.3rem;
+        left: 114px;
         width: 200px;
     }
 
     .fa-solid {
         font-size: 24px;
-        /* Adjust font size */
         margin-right: 1rem;
-        /* Adjust margin */
     }
 
     .play-button {
         font-size: 36px;
-        /* Adjust font size */
         top: 0;
-        /* Adjust position */
     }
 }
