@@ -156,10 +156,57 @@ h3 {
 
 }
 
-@media(max-width:786px) {
+@media only screen and (max-width: 500px) {
     .container {
-        position: fixed;
-        margin: 2rem 0px 1rem 0px;
+        width: 90%;
+        /* margin: 2rem auto; */
+        min-width: unset;
+    }
 
+    .player-img {
+        width: 250px;
+        height: 250px;
+        top: -30px;
+        left: 33px;
+    }
+
+    h2 {
+        font-size: 1rem;
+        padding: 2px;
+    }
+
+    h3 {
+        font-size: 0.9rem;
+    }
+
+    .player-progress {
+        margin-top: 2.4rem;
+        margin-left: 17px;
+
+    }
+
+    .music-duration {
+        top: -30px;
+    }
+
+    .player-control {
+        position: relative;
+        top: 0.4rem;
+        left: 7.3rem;
+        width: 200px;
+    }
+
+    .fa-solid {
+        font-size: 24px;
+        /* Adjust font size */
+        margin-right: 1rem;
+        /* Adjust margin */
+    }
+
+    .play-button {
+        font-size: 36px;
+        /* Adjust font size */
+        top: 0;
+        /* Adjust position */
     }
 }
