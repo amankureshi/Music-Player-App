@@ -83,6 +83,7 @@ body {
     height: 100%;
     transition: all 0.5s;
     opacity: 1;
+    border: 2px solid white;
 }
 
 h2 {
@@ -153,6 +154,19 @@ h3 {
     font-size: 42px;
     position: relative;
     top: 3px;
+
+}
+
+@media only screen and (max-width: 600px) {
+
+    .player-img .active {
+        border: 2px solid white;
+        margin-left: 2rem;
+    }
+
+    .player-control {
+        margin-left: 1.5rem;
+    }
 
 }
 
