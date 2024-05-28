@@ -99,3 +99,15 @@ music.addEventListener("timeupdate", updateProgressBar);
 playerProgress.addEventListener("click", setProgressBar);
 
 loadMusic(songs[musicIndex]);
+
+// Keyboard event ----->
+
+document.addEventListener("keydown", function (event) {
+  if (event.code === "Space") {
+    togglePlay();
+  } else if (event.code === "ArrowRight") {
+    changeMusic(1);
+  } else if (event.code === "ArrowLeft") {
+    changeMusic(-1);
+  }
+});
